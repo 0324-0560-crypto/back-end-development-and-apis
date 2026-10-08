@@ -1,1 +1,1 @@
-// Starter file — add your code here
+console.log(process.argv);
