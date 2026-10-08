@@ -31,7 +31,7 @@
     "build-a-chat-app": false,
     "build-jwt-protected-routes": false
   },
-  "chat.disableAIFeatures": true,
+  "chat.disableAIFeatures": false,
   "files.autoSave": "off",
   "freecodecamp-courses.autoStart": false,
   "freecodecamp-courses.prepare": "touch $(pwd)/.logs/.freecodecamp-os-lockfile",
@@ -42,13 +42,16 @@
       "open": true,
       "showLoader": true,
       "timeout": 4000,
-      "url": "http://localhost:8080"
+      "url": "https://cautious-computing-machine-wvvpp7q967r6hgw6w-8080.app.github.dev"
     }
   ],
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.profiles.linux": {
     "bash": {
-      "args": ["--init-file", "./bash/sourcerer.sh"],
+      "args": [
+        "--init-file",
+        "./bash/sourcerer.sh"
+      ],
       "icon": "terminal-bash",
       "path": "bash"
     }
